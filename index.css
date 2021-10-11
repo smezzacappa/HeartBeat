@@ -1,0 +1,264 @@
+.container {
+  text-align: center;
+  justify-content: center;
+  padding: 2em;
+  width: fit-content;
+  margin: auto;
+}
+.first-text {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.colors {
+  /* padding: 2em; */
+}
+a {
+  text-decoration: none;
+}
+#span > #phrase > br {
+  display: none;
+}
+
+.black_button {
+  /* margin: 10px; */
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 7px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.black_button:hover {
+  color: black;
+  background-color: white;
+}
+.red_button {
+  /* margin: 10px; */
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 7px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.red_button:hover {
+  color: red;
+  background-color: white;
+}
+
+.blue_button {
+  /* margin: 10px; */
+  background-color: blue;
+  color: white;
+  padding: 7px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.blue_button:hover {
+  color: blue;
+  background-color: white;
+}
+
+.carContainer {
+  display: none;
+}
+
+#returned {
+  display: none;
+}
+/* body {
+  justify-content: center;
+  align-items: center;
+} */
+.carContainer {
+  /* border: solid;
+  border-color: blue;
+  border-width: thick; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.items {
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  display: flex;
+  margin: auto;
+
+  /* margin: 20px 20px; */
+}
+.icon_container {
+  /* margin: auto; */
+  padding: 3px 2px;
+  margin-right: 3.75em;
+}
+
+#car {
+  font-size: 10rem;
+  /* padding: 2px 20px; */
+  /* margin: 10px 50px; */
+}
+.section {
+  margin-left: 2em;
+  display: grid;
+}
+a {
+  text-decoration: none;
+}
+a {
+  /* background-color: black; */
+  border: solid;
+  border-color: black;
+  color: black;
+  padding: 7px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 50px;
+}
+
+.no_button {
+  /* background-color: black; */
+  border: solid;
+  border-color: black;
+  color: black;
+  padding: 7px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 50px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.footer > br {
+  display: none;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 2;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+#span {
+  border: solid;
+  border-color: lightskyblue;
+  border-width: 20px;
+  margin-left: 14rem;
+  margin-right: 14rem;
+  border-radius: 3.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  #overlay {
+    width: auto;
+    padding-top: 8rem;
+    /* height: 20%; */
+  }
+  .items {
+    justify-content: center;
+    align-items: center;
+    /* width: 20em; */
+    display: grid;
+    margin: auto;
+    /* width: 20%; */
+    /* height: 20%; */
+  }
+
+  .colors {
+    display: grid;
+  }
+  .section {
+    display: grid;
+    width: auto;
+  }
+  #span > #phrase > br {
+    display: block !important;
+  }
+  .footer {
+    margin-bottom: 10px;
+  }
+  .footer > br {
+    display: block;
+    padding: 15px;
+  }
+  #span {
+    border: solid;
+    border-color: lightskyblue;
+    border-width: 20px;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    border-radius: 3.5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon_container {
+    margin: 0;
+  }
+  .colors {
+    margin: 15px;
+    /* padding: auto; */
+  }
+  .black_button {
+    margin: 5px;
+  }
+  .red_button {
+    margin: 5px;
+  }
+  .blue_button {
+    margin: 5px;
+  }
+  .section {
+    margin: 0;
+    justify-content: center;
+  }
+}

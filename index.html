@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- initial container -->
+    <div class="container" id="replaced">
+      <div class="first-text">
+        <!-- first page - color selector-->
+        <div class="initial-text" id="texttext">Please Select A Car Color</div>
+      </div>
+      <!--black, red, blue buttons -->
+      <div class="colors">
+        <button class="black_button" onclick="onB('carContainer')">
+          BLACK
+        </button>
+
+        <button class="red_button" onclick="onR('carContainer')">RED</button>
+
+        <button class="blue_button" onclick="onBl('carContainer')">BLUE</button>
+      </div>
+
+      <!-- create the interstitial-->
+      <div class="carContainer" id="overlay">
+        <div id="span">
+        <h1>ARE YOU SURE?</h1>
+
+        <h3 id="phrase">You want to leave the site <br class="break"/> to see the black car?</h3>
+        <div class="items">
+          <div class="icon_container">
+            <i class="fa fa-car" id="car"></i>
+          </div>
+          <div class="section">
+            <a
+              href=
+            >
+            
+              <div class="yes_button">YES</div>
+            </a>
+
+            <div class="no_button" onclick="off()">NO</div>
+          </div>
+        </div>
+        <div class="footer">*please remember to <br class="break"> wear your seatbelt</div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"
+  ></script>
+
+  <script src="index.js"></script>
+</html>
